@@ -1,16 +1,134 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+}
+
+*:focus{
+    outline:none !important;
+};
+
 body {
-  background-color: #FFF;
+    background-color: #000000;
+    position: relative
 }
 
-h1 {
-  color: #FFFFFF;
-  margin-left: 20px;
+a {
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+    width: auto;
 }
 
-#roundb {
-  border-radius: 25px;
-  border: 2px solid #FFFFFF;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
+a::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    background-color: #ffffff;
+    transform: translate(-50%, 0);
+    transition: width 0.2s ease-in-out 0s;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.no-link-animation:hover::before {
+    width: 0px;
+}
+
+#top-nav {
+    background-color: #000000bb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+}
+
+#top-nav-links-positioner-left {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0px;
+}
+
+#top-nav-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#top-nav-links-positioner-right {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0px;
+}
+
+.top-nav-links {
+    position: relative;
+    font-size: 18px;
+    margin-right: 35px;
+    margin-left: 35px;
+    top: 50%;
+}
+
+#main-page {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+
+#vanta-canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: calc(100vh + 100px);
+}
+
+#footer {
+  position: absolute;
+  left: 0;
+  top: 100vh;
+  width: 100%;
+  height: 100px;
+  background-color: #000000bb;
+  color: white;
+  text-align: center;
+}
+
+#footer-tos {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer-github {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#footer-privacy-policy {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    transition: width 0.2s ease-in-out 0s;
 }

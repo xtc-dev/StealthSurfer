@@ -1,14 +1,112 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
-</head>
-<body>
+<html lang="en">
+    <head>
+        <title>StealthSurfer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js" ></script>
+        <script src="./js/script.js"></script>
+        <link rel="icon" href="assets/stealthsurfer-icon.png" type="image/gif" sizes="16x16">
+        <style id="page-style">
+            #main-page {
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 100%;
+                height: calc(100vh - 50px)
+            }
 
-<h1>Null Proxy</h1>
-<p>This is a proxy.</p>
-  <p id="roundb">this is a very swag border that is round</p>
+            #main-header {
+                position: absolute;
+                top: 10vh;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 50px;
+                text-align: center;
+                color: #fff
+            }
 
-</body>
+            #main-description {
+                position: absolute;
+                top: 32vh;
+                left: 50%;
+                width: 60%;
+                transform: translate(-50%, 0);
+                font-size: 20px;
+                text-align: center;
+                color: #fff
+            }
+
+            #input {
+                position: absolute;
+                top: 60vh;
+                left: 50%;
+                background: rgba(0, 0, 0, .5);
+                transform: translate(calc(-50% - 50px), 0);
+                border-width: 3px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-style: solid;
+                padding-left: 20px;
+                border-color: #fff;
+                color: #fff;
+                width: 232px;
+                height: 60px;
+                font-size: 15px
+            }
+
+            #input::placeholder {
+                color: #bbb
+            }
+
+            #submit {
+                position: absolute;
+                top: 60vh;
+                left: 50%;
+                transform: translate(calc(-50% + 130px), 0);
+                background: rgba(0, 0, 0, .5);
+                border-width: 3px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-style: solid;
+                border-left-style: none;
+                border-color: #fff;
+                color: #fff;
+                width: 100px;
+                height: 68px;
+                font-size: 15px
+            }
+        </style>
+    </head>  
+    <body>
+        <div id="vanta-canvas"></div>
+        <script>vantaload();</script>
+        <div id="top-nav">
+            <div id="top-nav-links-positioner-left">
+                <a class="top-nav-links left" href="#index">HOME</a>
+                <a class="top-nav-links left" href="#index">GAMES</a>
+            </div>
+            <a class="no-link-animation" href="/">
+                <img id="top-nav-title" src="./assets/stealthsurfer.png" height="60px">
+            </a>
+            <div id="top-nav-links-positioner-right">
+                <a class="top-nav-links right" href="#index">RESOURCES</a>
+                <a class="top-nav-links right" href="#index">SETTINGS</a>
+            </div>
+        </div>
+        <div id="main-page">
+        </div>
+        <div id="footer">
+            <a id="footer-privacy-policy" href="#privacy">Privacy Policy</a>
+            <a href="https://github.com/ev0pium/StealthSurfer">
+                <img id="footer-github" src="./assets/github.png" height="40px">
+            </a> 
+            <a id="footer-tos" href="#tos">Terms of Service</a>
+        </div>
+        <script id="page-js"></script>
+    </body>
 </html>
