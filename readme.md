@@ -14,7 +14,7 @@ StealthSurfer strides to be on top of proxy sites regarding features! With this,
 
 ``Customizable CSS`` : "What's so special about changing the design? I can do that from the code!" Well, you can now do it straight from the site! This can be done by hovering over the "Settings" tab in the navigation bar, and selecting a theme and font. From some extensive research, no other proxy site has implemented this feature
 
-``Stealth Mode`` : The site will auto stealth as a google search you can change stealth options in settings but you can also completely disable it as well.
+``Stealth Mode`` : Anytime you input a link, your result will become an embed! You can increase how legitimate the tab looks with the tab cloak feature, inspired by Holy Unblocker!
 
   And many more features that will be added towards the first release
 
