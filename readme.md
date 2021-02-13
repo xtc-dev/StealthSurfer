@@ -10,7 +10,7 @@ It uses XHR requests to pull the JSON files in order to require less information
 
 StealthSurfer strides to be on top of proxy sites regarding features! With this, we've added some features you've never seen before:
 
-``Save as Default`` : Instead of having to select a proxy **EVERYTIME** you visit proxy websites, you can now save it as your default proxy! This can be activated when you first visit the site, by clicking the "GO!" button after the type the link you'd like to unblock. You'll be prompted with a modal asking you to select a proxy, and you'll notice a little box asking "Would you like to save this proxy as your default selection?"
+``Save as Default`` : Instead of having to select a proxy **EVERYTIME** you visit proxy websites, you can now save it as your default proxy! This can be activated when you first visit the site, by clicking the "GO!" button after the type the link you'd like to unblock. You'll be prompted with a modal asking you to select a proxy, and you'll notice a little box asking "Would you like to save this proxy as your default selection?" Better yet, this doesn't ONLY apply to proxies, this will apply to themes (see below)
 
 ``Customizable CSS`` : "What's so special about changing the design? I can do that from the code!" Well, you can now do it straight from the site! This can be done by hovering over the "Settings" tab in the navigation bar, and selecting a theme and font. From some extensive research, no other proxy site has implemented this feature
 
