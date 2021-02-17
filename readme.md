@@ -14,8 +14,7 @@ StealthSurfer strides to be on top of proxy sites regarding features! With this,
 
 ``Customizable CSS`` : "What's so special about changing the design? I can do that from the code!" Well, you can now do it straight from the site! This can be done by hovering over the "Settings" tab in the navigation bar, and selecting a theme and font. From some extensive research, no other proxy site has implemented this feature
 
-``Stealth Mode`` : Anytime you input a link, your result will become an embed! You can increase how legitimate the tab looks with the tab cloak feature, inspired by Holy Unblocker!
-
+``Stealth Mode`` : Anytime you input a link, your result will become an something similar to Alloy Proxy! In the 'Settings' tab, you can choose if you want your URL to be encoded in B64 (Base-64) to make it more stealthy! This proxy is a StealthSurfer exclusive, quite literally called StealthSurfer. It supports about every website!
   And many more features that will be added towards the first release
 
 ## Contributing
