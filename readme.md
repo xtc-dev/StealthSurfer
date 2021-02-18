@@ -1,4 +1,4 @@
-# StealthSurfer, browse the web in stealth.
+# StealthSurfer, "Surf the web how you should, under the radar."
 
 StealthSurfer is a website that can easily help you navigate web proxies, used to unblock websites such as Discord, Reddit, Twitter, Instagram, and that's just to name a few!
 
