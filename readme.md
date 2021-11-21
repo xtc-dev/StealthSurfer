@@ -1,3 +1,6 @@
+# This repo has been discontinued, and this contains 0 backend code. It's only a useless frontend.
+
+
 # StealthSurfer, "Be a level above."
 
 StealthSurfer is a website that can easily help you navigate web proxies, used to unblock websites such as Discord, Reddit, Twitter, Instagram, and that's just to name a few!
